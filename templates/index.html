@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico"/>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>myStatus</title>
+        <style>
+            form {
+                margin-bottom: 0.2em;
+            }
+            p {
+                margin-bottom: 1em;
+            }
+        </style>
+	</head>
+	
+	<body>
+		<div class="container py-2" style="width:90%; text-align: center; margin-left: auto; margin-right: auto;">
+			<div class="row">
+				<div class="col">
+					<p></p>
+                    <h2 class="font-weight-light">MI5 Severity Level</h2>
+                    <p><img src="/images/tile.png" height="300" width="300" alt="Tile showing severity level of {{severityLevel}}"></p>
+                    <p>Severity Level is currently: {{severityLevel}}</p>
+                    <p>Definition: {{definition}}</p>
+                    <p>Last Updated: {{lastUpdated}}</p>
+                    <p>Last Checked: {{lastChecked}}</p>
+				</div>
+			</div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>

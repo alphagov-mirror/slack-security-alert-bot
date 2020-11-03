@@ -1,0 +1,7 @@
+feedparser
+apscheduler
+Pillow
+flask
+jsmin
+slack
+slackclient
